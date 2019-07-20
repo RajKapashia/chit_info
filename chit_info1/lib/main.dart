@@ -2,7 +2,7 @@
 // Use of this source code is governed by REPA developers license DEV2MA that can be
 // found in the LICENSE file.
 import 'package:flutter/material.dart';
-import 'package:mainScreen.dart';
+import 'package:chit_info1/mainScreen.dart';
 
 void main() => runApp(tp102App());
 

@@ -12,9 +12,9 @@ class mScreenState extends State<mScreen> {
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
-    return Scaffold(context
+    return Scaffold(
          appBar: AppBar(
-           title: text("Chitkara Buddy"),
+           title: Text("Chitkara Buddy"),
          ),
     );
   }
