@@ -16,6 +16,60 @@ class mScreenState extends State<mScreen> {
          appBar: AppBar(
            title: Text("Chitkara Buddy"),
          ),
+           body: Material(
+             child: ListView(
+             children: <Widget>[
+                  Row(
+                    children: <Widget>[
+                       RaisedButton(
+                           child: Text("data"),
+                           onPressed: (){},
+                       ),
+                       RaisedButton(
+                           child: Text("data"),
+                           onPressed: (){},
+                       ),
+                    ],
+                  ),
+                  Row(
+                    children: <Widget>[
+                       RaisedButton(
+                           child: Text("data"),
+                           onPressed: (){},
+                       ),
+                       RaisedButton(
+                           child: Text("data"),
+                           onPressed: (){},
+                       ),
+                    ],
+                  ),
+                  Row(
+                    children: <Widget>[
+                       RaisedButton(
+                           child: Text("data"),
+                           onPressed: (){},
+                       ),
+                       RaisedButton(
+                           child: Text("data"),
+                           onPressed: (){},
+                       ),
+                    ],
+                  ),
+                  Row(
+                    children: <Widget>[
+                       RaisedButton(
+                           child: Text("data"),
+                           onPressed: (){},
+                       ),
+                       RaisedButton(
+                           child: Text("data"),
+                           onPressed: (){},
+                       ),
+                    ],
+                  ),
+             ],
+           ),
+           ),
     );
   }
 
