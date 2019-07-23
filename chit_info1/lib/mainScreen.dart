@@ -22,48 +22,79 @@ class mScreenState extends State<mScreen> {
                   Row(
                     children: <Widget>[
                        RaisedButton(
-                           child: Text("data"),
+                           child: Text("Map"),
                            onPressed: (){},
+                           elevation: 5.0,
+                           shape: RoundedRectangleBorder(
+                                     borderRadius: BorderRadius.circular(5.0)),
                        ),
                        RaisedButton(
-                           child: Text("data"),
+                           child: Text("Faculty"),
                            onPressed: (){},
-                       ),
-                    ],
-                  ),
-                  Row(
-                    children: <Widget>[
-                       RaisedButton(
-                           child: Text("data"),
-                           onPressed: (){},
-                       ),
-                       RaisedButton(
-                           child: Text("data"),
-                           onPressed: (){},
+                           elevation: 5.0,
+                           shape: RoundedRectangleBorder(
+                             borderRadius: BorderRadius.circular(5.0)
+                           ),
                        ),
                     ],
                   ),
                   Row(
                     children: <Widget>[
                        RaisedButton(
-                           child: Text("data"),
+                           child: Text("Food"),
                            onPressed: (){},
+                           elevation: 5.0,
+                           shape: RoundedRectangleBorder(
+                             borderRadius: BorderRadius.circular(5.0)
+                           ),
                        ),
                        RaisedButton(
-                           child: Text("data"),
+                           child: Text("Residence"),
                            onPressed: (){},
+                           elevation: 5.0,
+                           shape: RoundedRectangleBorder(
+                             borderRadius: BorderRadius.circular(5.0)
+                           ),
                        ),
                     ],
                   ),
                   Row(
                     children: <Widget>[
                        RaisedButton(
-                           child: Text("data"),
+                           child: Text("Events"),
                            onPressed: (){},
+                           elevation: 5.0,
+                           shape: RoundedRectangleBorder(
+                             borderRadius: BorderRadius.circular(5.0)
+                           ),
                        ),
                        RaisedButton(
-                           child: Text("data"),
+                           child: Text("Clubs"),
                            onPressed: (){},
+                           elevation: 5.0,
+                           shape: RoundedRectangleBorder(
+                             borderRadius: BorderRadius.circular(5.0)
+                           ),
+                       ),
+                    ],
+                  ),
+                  Row(
+                    children: <Widget>[
+                       RaisedButton(
+                           child: Text("Sports"),
+                           onPressed: (){},
+                           elevation: 5.0,
+                           shape: RoundedRectangleBorder(
+                             borderRadius: BorderRadius.circular(5.0)
+                           ),
+                       ),
+                       RaisedButton(
+                           child: Text("Helpline"),
+                           onPressed: (){},
+                           elevation: 5.0,
+                           shape: RoundedRectangleBorder(
+                             borderRadius: BorderRadius.circular(5.0)
+                           ),
                        ),
                     ],
                   ),
