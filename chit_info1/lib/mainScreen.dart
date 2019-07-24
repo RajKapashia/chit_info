@@ -24,9 +24,9 @@ class mScreenState extends State<mScreen> {
               GridView.count(
                crossAxisCount: 2,
                   children: <Widget>[
-                        RaisedButton(
+                        FlatButton(
                           padding: EdgeInsets.all(5.0),
-                          elevation: 2.0,
+                          //elevation: 2.0,
                           onPressed: (){},
                           child:
                            Container(
@@ -35,8 +35,8 @@ class mScreenState extends State<mScreen> {
                                            borderRadius: BorderRadius.circular(5.0),
                                            color: Colors.yellowAccent,
                                            border: Border.all(
-                                               color: Colors.blue[400],
-                                              // width: 2.0,
+                                               color: Colors.black,
+                                               width: 2.0,
                                            style: BorderStyle.solid,
                                      ),
                                ),
@@ -45,9 +45,9 @@ class mScreenState extends State<mScreen> {
                                 ),
                            ),
                         ),
-                        RaisedButton(
+                        FlatButton(
                           padding: EdgeInsets.all(5.0),
-                          elevation: 2.0,
+                          // elevation: 2.0,
                           onPressed: (){},
                           child:
                            Container(
@@ -56,8 +56,8 @@ class mScreenState extends State<mScreen> {
                                            borderRadius: BorderRadius.circular(5.0),
                                            color: Colors.blueAccent,
                                            border: Border.all(
-                                               color: Colors.blue[400],
-                                              // width: 2.0,
+                                               color: Colors.black,
+                                               width: 2.0,
                                            style: BorderStyle.solid,
                                      ),
                                ),
@@ -66,9 +66,9 @@ class mScreenState extends State<mScreen> {
                                 ),
                           ),
                         ),
-                        RaisedButton(
+                        FlatButton(
                           padding: EdgeInsets.all(5.0),
-                          elevation: 2.0,
+                          // elevation: 2.0,
                           onPressed: (){},
                           child:
                            Container(
@@ -77,7 +77,7 @@ class mScreenState extends State<mScreen> {
                                            borderRadius: BorderRadius.circular(5.0),
                                            color: Colors.brown,
                                            border: Border.all(
-                                               color: Colors.blue[400],
+                                               color: Colors.black,
                                                width: 2.0,
                                            style: BorderStyle.solid,
                                      ),
@@ -87,9 +87,9 @@ class mScreenState extends State<mScreen> {
                                 ),
                           ),
                         ),
-                        RaisedButton(
+                        FlatButton(
                           padding: EdgeInsets.all(5.0),
-                          elevation: 2.0,
+                          // elevation: 2.0,
                           onPressed: (){},
                           child:
                            Container(
@@ -98,7 +98,7 @@ class mScreenState extends State<mScreen> {
                                            borderRadius: BorderRadius.circular(5.0),
                                            color: Colors.orange,
                                            border: Border.all(
-                                               color: Colors.blue[400],
+                                               color: Colors.black,
                                                width: 2.0,
                                            style: BorderStyle.solid,
                                      ),
@@ -108,9 +108,9 @@ class mScreenState extends State<mScreen> {
                                 ),
                          ),
                         ),
-                        RaisedButton(
+                        FlatButton(
                           padding: EdgeInsets.all(5.0),
-                          elevation: 2.0,
+                          // elevation: 2.0,
                           onPressed: (){},
                           child:
                          Container(
@@ -119,7 +119,7 @@ class mScreenState extends State<mScreen> {
                                            borderRadius: BorderRadius.circular(5.0),
                                            color: Colors.green,
                                            border: Border.all(
-                                               color: Colors.blue[400],
+                                               color: Colors.black,
                                                width: 2.0,
                                            style: BorderStyle.solid,
                                      ),
@@ -129,9 +129,9 @@ class mScreenState extends State<mScreen> {
                                 ),
                          ),
                         ),
-                        RaisedButton(
+                        FlatButton(
                           padding: EdgeInsets.all(5.0),
-                          elevation: 2.0,
+                          // elevation: 2.0,
                           onPressed: (){},
                           child:
                            Container(
@@ -140,7 +140,7 @@ class mScreenState extends State<mScreen> {
                                            borderRadius: BorderRadius.circular(5.0),
                                            color: Colors.pinkAccent,
                                            border: Border.all(
-                                               color: Colors.blue[400],
+                                               color: Colors.black,
                                                width: 2.0,
                                            style: BorderStyle.solid,
                                      ),
@@ -150,9 +150,9 @@ class mScreenState extends State<mScreen> {
                                 ),
                             ),
                         ),
-                        RaisedButton(
+                        FlatButton(
                           padding: EdgeInsets.all(5.0),
-                          elevation: 2.0,
+                          // elevation: 2.0,
                           onPressed: (){},
                           child:
                            Container(
@@ -161,7 +161,7 @@ class mScreenState extends State<mScreen> {
                                            borderRadius: BorderRadius.circular(5.0),
                                            color: Colors.purpleAccent,
                                            border: Border.all(
-                                               color: Colors.blue[400],
+                                               color: Colors.black,
                                                width: 2.0,
                                            style: BorderStyle.solid,
                                      ),
@@ -171,9 +171,9 @@ class mScreenState extends State<mScreen> {
                                 ),
                            ),
                          ),
-                         RaisedButton(
+                         FlatButton(
                           padding: EdgeInsets.all(5.0),
-                          elevation: 2.0,
+                          // // elevation: 2.0,
                           onPressed: (){},
                           child:
                            Container(
@@ -182,7 +182,7 @@ class mScreenState extends State<mScreen> {
                                            borderRadius: BorderRadius.circular(5.0),
                                            color: Colors.tealAccent,
                                            border: Border.all(
-                                               color: Colors.blue[400],
+                                               color: Colors.black,
                                                width: 2.0,
                                            style: BorderStyle.solid,
                                      ),
