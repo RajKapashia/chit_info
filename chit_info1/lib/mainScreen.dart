@@ -20,101 +20,13 @@ class mScreenState extends State<mScreen> {
                      ),
                  ),
            body: Material(
-             child: 
-             /*
-             ListView(
-             children: <Widget>[
-                  Row(
-                    children: <Widget>[
-                      RaisedButton.icon(
-                        label: Text("Map"),
-                        icon: Icon(Icons.map),
-                        onPressed: (){},
-                      ),
-                       /*RaisedButton(
-                           child: Text("Map"),
-                           onPressed: (){},
-                           elevation: 5.0,
-                           shape: RoundedRectangleBorder(
-                                     borderRadius: BorderRadius.circular(5.0)),
-                       ),*/
-                       RaisedButton(
-                           child: Text("Faculty"),
-                           onPressed: (){},
-                           elevation: 5.0,
-                           shape: RoundedRectangleBorder(
-                             borderRadius: BorderRadius.circular(5.0)
-                           ),
-                       ),
-                    ],
-                  ),
-                  Row(
-                    children: <Widget>[
-                       RaisedButton(
-                           child: Text("Food"),
-                           onPressed: (){},
-                           elevation: 5.0,
-                           shape: RoundedRectangleBorder(
-                             borderRadius: BorderRadius.circular(5.0)
-                           ),
-                       ),
-                       RaisedButton(
-                           child: Text("Residence"),
-                           onPressed: (){},
-                           elevation: 5.0,
-                           shape: RoundedRectangleBorder(
-                             borderRadius: BorderRadius.circular(5.0)
-                           ),
-                       ),
-                    ],
-                  ),
-                  Row(
-                    children: <Widget>[
-                       RaisedButton(
-                           child: Text("Events"),
-                           onPressed: (){},
-                           elevation: 5.0,
-                           shape: RoundedRectangleBorder(
-                             borderRadius: BorderRadius.circular(5.0)
-                           ),
-                       ),
-                       RaisedButton(
-                           child: Text("Clubs"),
-                           onPressed: (){},
-                           elevation: 5.0,
-                           shape: RoundedRectangleBorder(
-                             borderRadius: BorderRadius.circular(5.0)
-                           ),
-                       ),
-                    ],
-                  ),
-                  Row(
-                    children: <Widget>[
-                       RaisedButton(
-                           child: Text("Sports"),
-                           onPressed: (){},
-                           elevation: 5.0,
-                           shape: RoundedRectangleBorder(
-                             borderRadius: BorderRadius.circular(5.0)
-                           ),
-                       ),
-                       RaisedButton(
-                           child: Text("Helpline"),
-                           onPressed: (){},
-                           elevation: 5.0,
-                           shape: RoundedRectangleBorder(
-                             borderRadius: BorderRadius.circular(5.0)
-                           ),
-                       ),
-                    ],
-                  ),
-             ],
-             ),*/
-           GridView.count(
+            child: 
+              GridView.count(
                crossAxisCount: 2,
                   children: <Widget>[
                         RaisedButton(
-                          elevation: 5.0,
+                          padding: EdgeInsets.all(5.0),
+                          elevation: 2.0,
                           onPressed: (){},
                           child:
                            Container(
@@ -124,7 +36,7 @@ class mScreenState extends State<mScreen> {
                                            color: Colors.yellowAccent,
                                            border: Border.all(
                                                color: Colors.blue[400],
-                                               width: 2.0,
+                                              // width: 2.0,
                                            style: BorderStyle.solid,
                                      ),
                                ),
@@ -133,6 +45,11 @@ class mScreenState extends State<mScreen> {
                                 ),
                            ),
                         ),
+                        RaisedButton(
+                          padding: EdgeInsets.all(5.0),
+                          elevation: 2.0,
+                          onPressed: (){},
+                          child:
                            Container(
                               // color: Colors.blueAccent,
                                decoration: BoxDecoration(
@@ -140,7 +57,7 @@ class mScreenState extends State<mScreen> {
                                            color: Colors.blueAccent,
                                            border: Border.all(
                                                color: Colors.blue[400],
-                                               width: 2.0,
+                                              // width: 2.0,
                                            style: BorderStyle.solid,
                                      ),
                                ),
@@ -148,6 +65,12 @@ class mScreenState extends State<mScreen> {
                                      child: Text("Faculty", style: TextStyle(fontSize: 24.0),),
                                 ),
                           ),
+                        ),
+                        RaisedButton(
+                          padding: EdgeInsets.all(5.0),
+                          elevation: 2.0,
+                          onPressed: (){},
+                          child:
                            Container(
                                  //color: Colors.brown,
                                  decoration: BoxDecoration(
@@ -163,6 +86,12 @@ class mScreenState extends State<mScreen> {
                                        child: Text("Food", style: TextStyle(fontSize: 24.0),),
                                 ),
                           ),
+                        ),
+                        RaisedButton(
+                          padding: EdgeInsets.all(5.0),
+                          elevation: 2.0,
+                          onPressed: (){},
+                          child:
                            Container(
                                  //color: Colors.orange,
                                  decoration: BoxDecoration(
@@ -178,6 +107,12 @@ class mScreenState extends State<mScreen> {
                                         child: Text("Residence", style: TextStyle(fontSize: 24.0),),
                                 ),
                          ),
+                        ),
+                        RaisedButton(
+                          padding: EdgeInsets.all(5.0),
+                          elevation: 2.0,
+                          onPressed: (){},
+                          child:
                          Container(
                                  //color: Colors.orange,
                                  decoration: BoxDecoration(
@@ -193,7 +128,13 @@ class mScreenState extends State<mScreen> {
                                         child: Text("Events", style: TextStyle(fontSize: 24.0),),
                                 ),
                          ),
-                         Container(
+                        ),
+                        RaisedButton(
+                          padding: EdgeInsets.all(5.0),
+                          elevation: 2.0,
+                          onPressed: (){},
+                          child:
+                           Container(
                                 // color: Colors.green,
                                  decoration: BoxDecoration(
                                            borderRadius: BorderRadius.circular(5.0),
@@ -207,8 +148,14 @@ class mScreenState extends State<mScreen> {
                                         child: Center(
                                         child: Text("Clubs", style: TextStyle(fontSize: 24.0),),
                                 ),
-                         ),
-                         Container(
+                            ),
+                        ),
+                        RaisedButton(
+                          padding: EdgeInsets.all(5.0),
+                          elevation: 2.0,
+                          onPressed: (){},
+                          child:
+                           Container(
                                  //color: Colors.pinkAccent,
                                  decoration: BoxDecoration(
                                            borderRadius: BorderRadius.circular(5.0),
@@ -222,8 +169,14 @@ class mScreenState extends State<mScreen> {
                                         child: Center(
                                         child: Text("Sports", style: TextStyle(fontSize: 24.0),),
                                 ),
+                           ),
                          ),
-                         Container(
+                         RaisedButton(
+                          padding: EdgeInsets.all(5.0),
+                          elevation: 2.0,
+                          onPressed: (){},
+                          child:
+                           Container(
                                  //color: Colors.purpleAccent,
                                  decoration: BoxDecoration(
                                            borderRadius: BorderRadius.circular(5.0),
@@ -237,6 +190,7 @@ class mScreenState extends State<mScreen> {
                                         child: Center(
                                         child: Text("Helpline", style: TextStyle(fontSize: 24.0),),
                                 ),
+                           ),
                          ),
                     ],
                 ),
