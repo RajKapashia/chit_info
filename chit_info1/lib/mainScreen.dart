@@ -17,17 +17,24 @@ class mScreenState extends State<mScreen> {
            title: Text("Chitkara Buddy"),
          ),
            body: Material(
-             child: ListView(
+             child: 
+             /*
+             ListView(
              children: <Widget>[
                   Row(
                     children: <Widget>[
-                       RaisedButton(
+                      RaisedButton.icon(
+                        label: Text("Map"),
+                        icon: Icon(Icons.map),
+                        onPressed: (){},
+                      ),
+                       /*RaisedButton(
                            child: Text("Map"),
                            onPressed: (){},
                            elevation: 5.0,
                            shape: RoundedRectangleBorder(
                                      borderRadius: BorderRadius.circular(5.0)),
-                       ),
+                       ),*/
                        RaisedButton(
                            child: Text("Faculty"),
                            onPressed: (){},
@@ -99,7 +106,132 @@ class mScreenState extends State<mScreen> {
                     ],
                   ),
              ],
-           ),
+             ),*/
+           GridView.count(
+               crossAxisCount: 2,
+                  children: <Widget>[
+                           Container(
+                              /// color: Colors.yellowAccent,
+                               decoration: BoxDecoration(
+                                           borderRadius: BorderRadius.circular(5.0),
+                                           color: Colors.yellowAccent,
+                                           border: Border.all(
+                                               color: Colors.blue[400],
+                                               width: 2.0,
+                                           style: BorderStyle.solid,
+                                     ),
+                               ),
+                                     child: Center(
+                                     child: Text("Map", style: TextStyle(fontSize: 24.0),),
+                                ),
+                           ),
+                           Container(
+                              // color: Colors.blueAccent,
+                               decoration: BoxDecoration(
+                                           borderRadius: BorderRadius.circular(5.0),
+                                           color: Colors.blueAccent,
+                                           border: Border.all(
+                                               color: Colors.blue[400],
+                                               width: 2.0,
+                                           style: BorderStyle.solid,
+                                     ),
+                               ),
+                                     child: Center(
+                                     child: Text("Faculty", style: TextStyle(fontSize: 24.0),),
+                                ),
+                          ),
+                           Container(
+                                 //color: Colors.brown,
+                                 decoration: BoxDecoration(
+                                           borderRadius: BorderRadius.circular(5.0),
+                                           color: Colors.brown,
+                                           border: Border.all(
+                                               color: Colors.blue[400],
+                                               width: 2.0,
+                                           style: BorderStyle.solid,
+                                     ),
+                               ),
+                                       child: Center(
+                                       child: Text("Food", style: TextStyle(fontSize: 24.0),),
+                                ),
+                          ),
+                           Container(
+                                 //color: Colors.orange,
+                                 decoration: BoxDecoration(
+                                           borderRadius: BorderRadius.circular(5.0),
+                                           color: Colors.orange,
+                                           border: Border.all(
+                                               color: Colors.blue[400],
+                                               width: 2.0,
+                                           style: BorderStyle.solid,
+                                     ),
+                               ),
+                                        child: Center(
+                                        child: Text("Residence", style: TextStyle(fontSize: 24.0),),
+                                ),
+                         ),
+                         Container(
+                                 //color: Colors.orange,
+                                 decoration: BoxDecoration(
+                                           borderRadius: BorderRadius.circular(5.0),
+                                           color: Colors.green,
+                                           border: Border.all(
+                                               color: Colors.blue[400],
+                                               width: 2.0,
+                                           style: BorderStyle.solid,
+                                     ),
+                               ),
+                                        child: Center(
+                                        child: Text("Event", style: TextStyle(fontSize: 24.0),),
+                                ),
+                         ),
+                         Container(
+                                // color: Colors.green,
+                                 decoration: BoxDecoration(
+                                           borderRadius: BorderRadius.circular(5.0),
+                                           color: Colors.pinkAccent,
+                                           border: Border.all(
+                                               color: Colors.blue[400],
+                                               width: 2.0,
+                                           style: BorderStyle.solid,
+                                     ),
+                               ),
+                                        child: Center(
+                                        child: Text("Clubs", style: TextStyle(fontSize: 24.0),),
+                                ),
+                         ),
+                         Container(
+                                 //color: Colors.pinkAccent,
+                                 decoration: BoxDecoration(
+                                           borderRadius: BorderRadius.circular(5.0),
+                                           color: Colors.purpleAccent,
+                                           border: Border.all(
+                                               color: Colors.blue[400],
+                                               width: 2.0,
+                                           style: BorderStyle.solid,
+                                     ),
+                               ),
+                                        child: Center(
+                                        child: Text("Sports", style: TextStyle(fontSize: 24.0),),
+                                ),
+                         ),
+                         Container(
+                                 //color: Colors.purpleAccent,
+                                 decoration: BoxDecoration(
+                                           borderRadius: BorderRadius.circular(5.0),
+                                           color: Colors.tealAccent,
+                                           border: Border.all(
+                                               color: Colors.blue[400],
+                                               width: 2.0,
+                                           style: BorderStyle.solid,
+                                     ),
+                               ),
+                                        child: Center(
+                                        child: Text("Helpline", style: TextStyle(fontSize: 24.0),),
+                                ),
+                         ),
+                    ],
+                ),
            ),
     );
   }
