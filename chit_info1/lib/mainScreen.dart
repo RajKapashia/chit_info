@@ -14,8 +14,11 @@ class mScreenState extends State<mScreen> {
     // TODO: implement build
     return Scaffold(
          appBar: AppBar(
-           title: Text("Chitkara Buddy"),
-         ),
+           title: Center(
+                    child: 
+                       Text("Chitkara Buddy"),
+                     ),
+                 ),
            body: Material(
              child: 
              /*
@@ -110,6 +113,10 @@ class mScreenState extends State<mScreen> {
            GridView.count(
                crossAxisCount: 2,
                   children: <Widget>[
+                        RaisedButton(
+                          elevation: 5.0,
+                          onPressed: (){},
+                          child:
                            Container(
                               /// color: Colors.yellowAccent,
                                decoration: BoxDecoration(
@@ -125,6 +132,7 @@ class mScreenState extends State<mScreen> {
                                      child: Text("Map", style: TextStyle(fontSize: 24.0),),
                                 ),
                            ),
+                        ),
                            Container(
                               // color: Colors.blueAccent,
                                decoration: BoxDecoration(
@@ -182,7 +190,7 @@ class mScreenState extends State<mScreen> {
                                      ),
                                ),
                                         child: Center(
-                                        child: Text("Event", style: TextStyle(fontSize: 24.0),),
+                                        child: Text("Events", style: TextStyle(fontSize: 24.0),),
                                 ),
                          ),
                          Container(
