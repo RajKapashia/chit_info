@@ -85,10 +85,13 @@ class mScreenState extends State<mScreen> {
                                      child: Container(
                                             decoration: BoxDecoration(
                                             borderRadius: BorderRadius.circular(30.0),
-                                            color: Colors.white,
+                                            color: Colors.blue,
                                        ),
                                        padding: EdgeInsets.all(5.0),
-                                       child: Text("Staff", style: TextStyle(fontSize: 24.0),),
+                                       child: Text("Staff", style: TextStyle(fontSize: 24.0,
+                                              color: Colors.white,
+                                         ),       
+                                       ),
                                      ),          
                                      //child: Image(image: AssetImage("assets/staff.png"),),
                                 ),
@@ -118,10 +121,12 @@ class mScreenState extends State<mScreen> {
                                      child: Container(
                                             decoration: BoxDecoration(
                                             borderRadius: BorderRadius.circular(30.0),
-                                            color: Colors.white,
+                                            color: Colors.blue,
                                        ),
                                        padding: EdgeInsets.all(5.0),
-                                       child: Text("Food", style: TextStyle(fontSize: 24.0),),
+                                       child: Text("Food", style: TextStyle(fontSize: 24.0,
+                                              color: Colors.white,
+                                       ),),
                                      ),          
                                      //child: Image(image: AssetImage("assets/staff.png"),),
                                 ),
@@ -151,10 +156,12 @@ class mScreenState extends State<mScreen> {
                                      child: Container(
                                             decoration: BoxDecoration(
                                             borderRadius: BorderRadius.circular(30.0),
-                                            color: Colors.white,
+                                            color: Colors.blue,
                                        ),
                                        padding: EdgeInsets.all(5.0),
-                                       child: Text("Residence", style: TextStyle(fontSize: 24.0),),
+                                       child: Text("Residence", style: TextStyle(fontSize: 24.0,
+                                             color: Colors.white,
+                                       ),),
                                      ),          
                                      //child: Image(image: AssetImage("assets/staff.png"),),
                                 ),
@@ -184,10 +191,12 @@ class mScreenState extends State<mScreen> {
                                      child: Container(
                                             decoration: BoxDecoration(
                                             borderRadius: BorderRadius.circular(30.0),
-                                            color: Colors.white,
+                                            color: Colors.blue,
                                        ),
                                        padding: EdgeInsets.all(5.0),
-                                       child: Text("Events", style: TextStyle(fontSize: 24.0),),
+                                       child: Text("Events", style: TextStyle(fontSize: 24.0,
+                                              color: Colors.white,
+                                       ),),
                                      ),          
                                      //child: Image(image: AssetImage("assets/staff.png"),),
                                 ),
@@ -217,10 +226,12 @@ class mScreenState extends State<mScreen> {
                                      child: Container(
                                             decoration: BoxDecoration(
                                             borderRadius: BorderRadius.circular(30.0),
-                                            color: Colors.white,
+                                            color: Colors.blue,
                                        ),
                                        padding: EdgeInsets.all(5.0),
-                                       child: Text("Clubs", style: TextStyle(fontSize: 24.0),),
+                                       child: Text("Clubs", style: TextStyle(fontSize: 24.0,
+                                              color: Colors.white,
+                                       ),),
                                      ),          
                                      //child: Image(image: AssetImage("assets/staff.png"),),
                                 ),
@@ -250,10 +261,12 @@ class mScreenState extends State<mScreen> {
                                      child: Container(
                                             decoration: BoxDecoration(
                                             borderRadius: BorderRadius.circular(30.0),
-                                            color: Colors.white,
+                                            color: Colors.blue,
                                        ),
                                        padding: EdgeInsets.all(5.0),
-                                       child: Text("Sports", style: TextStyle(fontSize: 24.0),),
+                                       child: Text("Sports", style: TextStyle(fontSize: 24.0,
+                                              color: Colors.white,
+                                       ),),
                                      ),          
                                      //child: Image(image: AssetImage("assets/staff.png"),),
                                 ),
@@ -283,10 +296,12 @@ class mScreenState extends State<mScreen> {
                                      child: Container(
                                             decoration: BoxDecoration(
                                             borderRadius: BorderRadius.circular(30.0),
-                                            color: Colors.white,
+                                            color: Colors.blue,
                                        ),
                                        padding: EdgeInsets.all(5.0),
-                                       child: Text("Helpline", style: TextStyle(fontSize: 24.0),),
+                                       child: Text("Helpline", style: TextStyle(fontSize: 24.0,
+                                              color: Colors.white,
+                                       ),),
                                      ),          
                                      //child: Image(image: AssetImage("assets/staff.png"),),
                                 ),
