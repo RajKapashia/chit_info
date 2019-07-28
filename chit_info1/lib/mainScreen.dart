@@ -33,16 +33,22 @@ class mScreenState extends State<mScreen> {
                               /// color: Colors.yellowAccent,
                                decoration: BoxDecoration(
                                            borderRadius: BorderRadius.circular(5.0),
-                                           color: Colors.yellowAccent,
+                                           color: Colors.white,
                                            border: Border.all(
-                                               color: Colors.black,
-                                               width: 2.0,
+                                               color: Colors.white,
+                                               width: 0,
                                            style: BorderStyle.solid,
                                      ),
                                ),
-                                     child: Center(
-                                     child: Text("Map", style: TextStyle(fontSize: 24.0),),
-                                ),
+                                     //child: Center(
+                                     //child: Text("Map", style: TextStyle(fontSize: 24.0),),
+                                     //child: Image.asset("assests/maps.png"),
+                                     child: Image(image: AssetImage("assets/maps.png"),
+                                            //height: 50.0,
+                                            //width: 50.0,
+                                      
+                                     ),
+                               // ),
                            ),
                         ),
                         FlatButton(
@@ -53,16 +59,27 @@ class mScreenState extends State<mScreen> {
                            Container(
                               // color: Colors.blueAccent,
                                decoration: BoxDecoration(
+                                           image: DecorationImage(
+                                             image: AssetImage("assets/staff.png"),
+                                             fit: BoxFit.cover,
+                                           ),
                                            borderRadius: BorderRadius.circular(5.0),
-                                           color: Colors.blueAccent,
+                                           color: Colors.white,
                                            border: Border.all(
-                                               color: Colors.black,
-                                               width: 2.0,
+                                               color: Colors.white,
+                                               width: 0,
                                            style: BorderStyle.solid,
                                      ),
                                ),
                                      child: Center(
-                                     child: Text("Faculty", style: TextStyle(fontSize: 24.0),),
+                                     child: Container(
+                                            decoration: BoxDecoration(
+                                            borderRadius: BorderRadius.circular(30.0),
+                                            color: Colors.white.withOpacity(0.5),
+                                       ),
+                                       child: Text("Faculty", style: TextStyle(fontSize: 24.0),),
+                                     ),          
+                                     //child: Image(image: AssetImage("assets/staff.png"),),
                                 ),
                           ),
                         ),
