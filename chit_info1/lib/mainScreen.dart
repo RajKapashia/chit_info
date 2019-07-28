@@ -26,33 +26,6 @@ class mScreenState extends State<mScreen> {
                   children: <Widget>[
                         FlatButton(
                           padding: EdgeInsets.all(5.0),
-                          //elevation: 2.0,
-                          onPressed: (){},
-                          child:
-                           Container(
-                              /// color: Colors.yellowAccent,
-                               decoration: BoxDecoration(
-                                           borderRadius: BorderRadius.circular(5.0),
-                                           color: Colors.white,
-                                           border: Border.all(
-                                               color: Colors.white,
-                                               width: 0,
-                                           style: BorderStyle.solid,
-                                     ),
-                               ),
-                                     //child: Center(
-                                     //child: Text("Map", style: TextStyle(fontSize: 24.0),),
-                                     //child: Image.asset("assests/maps.png"),
-                                     child: Image(image: AssetImage("assets/maps.png"),
-                                            //height: 50.0,
-                                            //width: 50.0,
-                                      
-                                     ),
-                               // ),
-                           ),
-                        ),
-                        FlatButton(
-                          padding: EdgeInsets.all(5.0),
                           // elevation: 2.0,
                           onPressed: (){},
                           child:
@@ -60,8 +33,8 @@ class mScreenState extends State<mScreen> {
                               // color: Colors.blueAccent,
                                decoration: BoxDecoration(
                                            image: DecorationImage(
-                                             image: AssetImage("assets/staff.png"),
-                                             fit: BoxFit.cover,
+                                             image: AssetImage("assets/maps.png"),
+                                             //fit: BoxFit.cover,
                                            ),
                                            borderRadius: BorderRadius.circular(5.0),
                                            color: Colors.white,
@@ -75,9 +48,14 @@ class mScreenState extends State<mScreen> {
                                      child: Container(
                                             decoration: BoxDecoration(
                                             borderRadius: BorderRadius.circular(30.0),
-                                            color: Colors.white.withOpacity(0.5),
+                                            color: Colors.blue,
                                        ),
-                                       child: Text("Faculty", style: TextStyle(fontSize: 24.0),),
+                                       padding: EdgeInsets.all(5.0),
+                                       child: Text("Maps", 
+                                             style: TextStyle(fontSize: 24.0,
+                                             color: Colors.white,
+                                             ),
+                                       ),
                                      ),          
                                      //child: Image(image: AssetImage("assets/staff.png"),),
                                 ),
@@ -89,18 +67,129 @@ class mScreenState extends State<mScreen> {
                           onPressed: (){},
                           child:
                            Container(
-                                 //color: Colors.brown,
-                                 decoration: BoxDecoration(
+                              // color: Colors.blueAccent,
+                               decoration: BoxDecoration(
+                                           image: DecorationImage(
+                                             image: AssetImage("assets/staff.png"),
+                                             //fit: BoxFit.cover,
+                                           ),
                                            borderRadius: BorderRadius.circular(5.0),
-                                           color: Colors.brown,
+                                           color: Colors.white,
                                            border: Border.all(
-                                               color: Colors.black,
-                                               width: 2.0,
+                                               color: Colors.white,
+                                               width: 0,
                                            style: BorderStyle.solid,
                                      ),
                                ),
-                                       child: Center(
+                                     child: Center(
+                                     child: Container(
+                                            decoration: BoxDecoration(
+                                            borderRadius: BorderRadius.circular(30.0),
+                                            color: Colors.white,
+                                       ),
+                                       padding: EdgeInsets.all(5.0),
+                                       child: Text("Staff", style: TextStyle(fontSize: 24.0),),
+                                     ),          
+                                     //child: Image(image: AssetImage("assets/staff.png"),),
+                                ),
+                          ),
+                        ),
+                         FlatButton(
+                          padding: EdgeInsets.all(5.0),
+                          // elevation: 2.0,
+                          onPressed: (){},
+                          child:
+                           Container(
+                              // color: Colors.blueAccent,
+                               decoration: BoxDecoration(
+                                           image: DecorationImage(
+                                             image: AssetImage("assets/food.png"),
+                                             //fit: BoxFit.cover,
+                                           ),
+                                           borderRadius: BorderRadius.circular(5.0),
+                                           color: Colors.white,
+                                           border: Border.all(
+                                               color: Colors.white,
+                                               width: 0,
+                                           style: BorderStyle.solid,
+                                     ),
+                               ),
+                                     child: Center(
+                                     child: Container(
+                                            decoration: BoxDecoration(
+                                            borderRadius: BorderRadius.circular(30.0),
+                                            color: Colors.white,
+                                       ),
+                                       padding: EdgeInsets.all(5.0),
                                        child: Text("Food", style: TextStyle(fontSize: 24.0),),
+                                     ),          
+                                     //child: Image(image: AssetImage("assets/staff.png"),),
+                                ),
+                          ),
+                        ),
+                         FlatButton(
+                          padding: EdgeInsets.all(5.0),
+                          // elevation: 2.0,
+                          onPressed: (){},
+                          child:
+                           Container(
+                              // color: Colors.blueAccent,
+                               decoration: BoxDecoration(
+                                           image: DecorationImage(
+                                             image: AssetImage("assets/residence.png"),
+                                             //fit: BoxFit.cover,
+                                           ),
+                                           borderRadius: BorderRadius.circular(5.0),
+                                           color: Colors.white,
+                                           border: Border.all(
+                                               color: Colors.white,
+                                               width: 0,
+                                           style: BorderStyle.solid,
+                                     ),
+                               ),
+                                     child: Center(
+                                     child: Container(
+                                            decoration: BoxDecoration(
+                                            borderRadius: BorderRadius.circular(30.0),
+                                            color: Colors.white,
+                                       ),
+                                       padding: EdgeInsets.all(5.0),
+                                       child: Text("Residence", style: TextStyle(fontSize: 24.0),),
+                                     ),          
+                                     //child: Image(image: AssetImage("assets/staff.png"),),
+                                ),
+                          ),
+                        ),
+                         FlatButton(
+                          padding: EdgeInsets.all(5.0),
+                          // elevation: 2.0,
+                          onPressed: (){},
+                          child:
+                           Container(
+                              // color: Colors.blueAccent,
+                               decoration: BoxDecoration(
+                                           image: DecorationImage(
+                                             image: AssetImage("assets/events.png"),
+                                             //fit: BoxFit.cover,
+                                           ),
+                                           borderRadius: BorderRadius.circular(5.0),
+                                           color: Colors.white,
+                                           border: Border.all(
+                                               color: Colors.white,
+                                               width: 0,
+                                           style: BorderStyle.solid,
+                                     ),
+                               ),
+                                     child: Center(
+                                     child: Container(
+                                            decoration: BoxDecoration(
+                                            borderRadius: BorderRadius.circular(30.0),
+                                            color: Colors.white,
+                                       ),
+                                       padding: EdgeInsets.all(5.0),
+                                       child: Text("Events", style: TextStyle(fontSize: 24.0),),
+                                     ),          
+                                     //child: Image(image: AssetImage("assets/staff.png"),),
                                 ),
                           ),
                         ),
@@ -110,41 +199,32 @@ class mScreenState extends State<mScreen> {
                           onPressed: (){},
                           child:
                            Container(
-                                 //color: Colors.orange,
-                                 decoration: BoxDecoration(
+                              // color: Colors.blueAccent,
+                               decoration: BoxDecoration(
+                                           image: DecorationImage(
+                                             image: AssetImage("assets/clubs.png"),
+                                             //fit: BoxFit.cover,
+                                           ),
                                            borderRadius: BorderRadius.circular(5.0),
-                                           color: Colors.orange,
+                                           color: Colors.white,
                                            border: Border.all(
-                                               color: Colors.black,
-                                               width: 2.0,
+                                               color: Colors.white,
+                                               width: 0,
                                            style: BorderStyle.solid,
                                      ),
                                ),
-                                        child: Center(
-                                        child: Text("Residence", style: TextStyle(fontSize: 24.0),),
+                                     child: Center(
+                                     child: Container(
+                                            decoration: BoxDecoration(
+                                            borderRadius: BorderRadius.circular(30.0),
+                                            color: Colors.white,
+                                       ),
+                                       padding: EdgeInsets.all(5.0),
+                                       child: Text("Clubs", style: TextStyle(fontSize: 24.0),),
+                                     ),          
+                                     //child: Image(image: AssetImage("assets/staff.png"),),
                                 ),
-                         ),
-                        ),
-                        FlatButton(
-                          padding: EdgeInsets.all(5.0),
-                          // elevation: 2.0,
-                          onPressed: (){},
-                          child:
-                         Container(
-                                 //color: Colors.orange,
-                                 decoration: BoxDecoration(
-                                           borderRadius: BorderRadius.circular(5.0),
-                                           color: Colors.green,
-                                           border: Border.all(
-                                               color: Colors.black,
-                                               width: 2.0,
-                                           style: BorderStyle.solid,
-                                     ),
-                               ),
-                                        child: Center(
-                                        child: Text("Events", style: TextStyle(fontSize: 24.0),),
-                                ),
-                         ),
+                          ),
                         ),
                         FlatButton(
                           padding: EdgeInsets.all(5.0),
@@ -152,63 +232,66 @@ class mScreenState extends State<mScreen> {
                           onPressed: (){},
                           child:
                            Container(
-                                // color: Colors.green,
-                                 decoration: BoxDecoration(
+                              // color: Colors.blueAccent,
+                               decoration: BoxDecoration(
+                                           image: DecorationImage(
+                                             image: AssetImage("assets/sports.png"),
+                                             //fit: BoxFit.cover,
+                                           ),
                                            borderRadius: BorderRadius.circular(5.0),
-                                           color: Colors.pinkAccent,
+                                           color: Colors.white,
                                            border: Border.all(
-                                               color: Colors.black,
-                                               width: 2.0,
+                                               color: Colors.white,
+                                               width: 0,
                                            style: BorderStyle.solid,
                                      ),
                                ),
-                                        child: Center(
-                                        child: Text("Clubs", style: TextStyle(fontSize: 24.0),),
+                                     child: Center(
+                                     child: Container(
+                                            decoration: BoxDecoration(
+                                            borderRadius: BorderRadius.circular(30.0),
+                                            color: Colors.white,
+                                       ),
+                                       padding: EdgeInsets.all(5.0),
+                                       child: Text("Sports", style: TextStyle(fontSize: 24.0),),
+                                     ),          
+                                     //child: Image(image: AssetImage("assets/staff.png"),),
                                 ),
-                            ),
+                          ),
                         ),
-                        FlatButton(
+                          FlatButton(
                           padding: EdgeInsets.all(5.0),
                           // elevation: 2.0,
                           onPressed: (){},
                           child:
                            Container(
-                                 //color: Colors.pinkAccent,
-                                 decoration: BoxDecoration(
+                              // color: Colors.blueAccent,
+                               decoration: BoxDecoration(
+                                           image: DecorationImage(
+                                             image: AssetImage("assets/helpline.png"),
+                                             //fit: BoxFit.cover,
+                                           ),
                                            borderRadius: BorderRadius.circular(5.0),
-                                           color: Colors.purpleAccent,
+                                           color: Colors.white,
                                            border: Border.all(
-                                               color: Colors.black,
-                                               width: 2.0,
+                                               color: Colors.white,
+                                               width: 0,
                                            style: BorderStyle.solid,
                                      ),
                                ),
-                                        child: Center(
-                                        child: Text("Sports", style: TextStyle(fontSize: 24.0),),
+                                     child: Center(
+                                     child: Container(
+                                            decoration: BoxDecoration(
+                                            borderRadius: BorderRadius.circular(30.0),
+                                            color: Colors.white,
+                                       ),
+                                       padding: EdgeInsets.all(5.0),
+                                       child: Text("Helpline", style: TextStyle(fontSize: 24.0),),
+                                     ),          
+                                     //child: Image(image: AssetImage("assets/staff.png"),),
                                 ),
-                           ),
-                         ),
-                         FlatButton(
-                          padding: EdgeInsets.all(5.0),
-                          // // elevation: 2.0,
-                          onPressed: (){},
-                          child:
-                           Container(
-                                 //color: Colors.purpleAccent,
-                                 decoration: BoxDecoration(
-                                           borderRadius: BorderRadius.circular(5.0),
-                                           color: Colors.tealAccent,
-                                           border: Border.all(
-                                               color: Colors.black,
-                                               width: 2.0,
-                                           style: BorderStyle.solid,
-                                     ),
-                               ),
-                                        child: Center(
-                                        child: Text("Helpline", style: TextStyle(fontSize: 24.0),),
-                                ),
-                           ),
-                         ),
+                          ),
+                        ),
                     ],
                 ),
            ),
