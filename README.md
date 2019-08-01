@@ -1,9 +1,9 @@
 # chit_info
 A flutter based information app that gives user information about a place.
 
-### LICENSE
+### Usage Guidelines
 
-Copyright (c) 2019
+Copyright (c) 2019 RajKapashia
 
 This project resources are made available for educational and fair use only. 
 Any misuse may or may not lead to unfavourable outcomes as applicable by the 
@@ -13,8 +13,8 @@ This project doesn't publish any vulnerable aspects or any misuse of entities
 and services of Chitkara University. Hence, any report or claim issued 
 against the same shall not be dealt with.
 
-The above copyright notice and this permission notice shall be included in all 
-copies or substantial portions of the Software.
+The copyright notice and permission notice as in LICENSE file shall be included 
+in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
