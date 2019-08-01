@@ -204,7 +204,11 @@ class mScreenState extends State<mScreen> {
                         FlatButton(
                           padding: EdgeInsets.all(5.0),
                           // elevation: 2.0,
-                          onPressed: (){},
+                          onPressed: (){
+                              Navigator.push(context, MaterialPageRoute(builder: (context){
+                                  return clubsScreen();
+                              }));
+                          },
                           child:
                            Container(
                               // color: Colors.blueAccent,

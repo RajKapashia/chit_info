@@ -9,6 +9,14 @@ class clubsScreen extends StatefulWidget{
 class clubsScreenState extends State<clubsScreen>{
   @override
   Widget build(BuildContext context) {
-    return null;
+    return Scaffold(
+        appBar: AppBar(
+          title: 
+                 Text("Clubs"),
+          ),
+          body: Material(
+           // child: ,
+          ),
+    );
   }
 }
