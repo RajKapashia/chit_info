@@ -1,5 +1,5 @@
-// Copyright 2019 REPA Authors. All rights reserved.
-// Use of this source code is governed by REPA developers license DEV2MA that can be
+// Copyright 2019. All rights reserved.
+// Use of this source code is governed by the developers license DEV2MA that can be
 // found in the LICENSE file.
 import 'package:flutter/material.dart';
 import 'package:chit_info1/mainScreen.dart';

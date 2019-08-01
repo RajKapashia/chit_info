@@ -292,7 +292,8 @@ class mScreenState extends State<mScreen> {
                                            style: BorderStyle.solid,
                                      ),
                                ),
-                                     child: Center(
+                                     child: 
+                                     Center(
                                      child: Container(
                                             decoration: BoxDecoration(
                                             borderRadius: BorderRadius.circular(30.0),
