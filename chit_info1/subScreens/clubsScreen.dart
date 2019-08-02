@@ -12,7 +12,10 @@ class clubsScreenState extends State<clubsScreen>{
     return Scaffold(
         appBar: AppBar(
           title: 
-                 Text("Clubs"),
+                Center(
+                  child:
+                     Text("Clubs"),
+                ),
           ),
           body: Material(
            // child: ,

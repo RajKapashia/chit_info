@@ -1,4 +1,4 @@
-// Copyright 2019. All rights reserved.
+// Copyright 2019 RajKapashia.
 // Use of this source code is governed by the developers license that can be
 // found in the LICENSE file and the README.md.
 import 'package:flutter/material.dart';
