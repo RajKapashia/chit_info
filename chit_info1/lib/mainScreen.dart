@@ -27,7 +27,9 @@ class mScreenState extends State<mScreen> {
                         FlatButton(
                           padding: EdgeInsets.all(5.0),
                           // elevation: 2.0,
-                          onPressed: (){},
+                          onPressed: (){
+                                        navigateToDetail("Maps");
+                          },
                           child:
                            Container(
                               // color: Colors.blueAccent,
@@ -64,7 +66,9 @@ class mScreenState extends State<mScreen> {
                         FlatButton(
                           padding: EdgeInsets.all(5.0),
                           // elevation: 2.0,
-                          onPressed: (){},
+                          onPressed: (){
+                                   navigateToDetail("Staff");
+                          },
                           child:
                            Container(
                               // color: Colors.blueAccent,
@@ -100,7 +104,9 @@ class mScreenState extends State<mScreen> {
                          FlatButton(
                           padding: EdgeInsets.all(5.0),
                           // elevation: 2.0,
-                          onPressed: (){},
+                          onPressed: (){
+                                 navigateToDetail("Food");
+                          },
                           child:
                            Container(
                               // color: Colors.blueAccent,
@@ -135,7 +141,9 @@ class mScreenState extends State<mScreen> {
                          FlatButton(
                           padding: EdgeInsets.all(5.0),
                           // elevation: 2.0,
-                          onPressed: (){},
+                          onPressed: (){
+                              navigateToDetail("Residence");
+                          },
                           child:
                            Container(
                               // color: Colors.blueAccent,
@@ -170,7 +178,9 @@ class mScreenState extends State<mScreen> {
                          FlatButton(
                           padding: EdgeInsets.all(5.0),
                           // elevation: 2.0,
-                          onPressed: (){},
+                          onPressed: (){
+                              navigateToDetail("Events");
+                          },
                           child:
                            Container(
                               // color: Colors.blueAccent,
@@ -206,9 +216,7 @@ class mScreenState extends State<mScreen> {
                           padding: EdgeInsets.all(5.0),
                           // elevation: 2.0,
                           onPressed: (){
-                              Navigator.push(context, MaterialPageRoute(builder: (context){
-                                  return clubsScreen();
-                              }));
+                              navigateToDetail("Clubs");
                           },
                           child:
                            Container(
@@ -244,7 +252,9 @@ class mScreenState extends State<mScreen> {
                         FlatButton(
                           padding: EdgeInsets.all(5.0),
                           // elevation: 2.0,
-                          onPressed: (){},
+                          onPressed: (){
+                              navigateToDetail("Sports");
+                          },
                           child:
                            Container(
                               // color: Colors.blueAccent,
@@ -279,7 +289,9 @@ class mScreenState extends State<mScreen> {
                           FlatButton(
                           padding: EdgeInsets.all(5.0),
                           // elevation: 2.0,
-                          onPressed: (){},
+                          onPressed: (){
+                              navigateToDetail("Helpline");
+                          },
                           child:
                            Container(
                               // color: Colors.blueAccent,
@@ -317,5 +329,10 @@ class mScreenState extends State<mScreen> {
            ),
     );
   }
-
+   void navigateToDetail(String ss)
+    {
+      Navigator.push(context, MaterialPageRoute(builder: (context){
+                                  return subScreen(ss);
+                              }));
+    }
 }
