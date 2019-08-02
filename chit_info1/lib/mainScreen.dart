@@ -19,6 +19,9 @@ class mScreenState extends State<mScreen> {
                        Text("Chitkara Buddy"),
                      ),
                  ),
+          drawer: Drawer(
+                   child: drawerFunction(),
+          ),
            body: Material(
             child: 
               GridView.count(
@@ -335,4 +338,44 @@ class mScreenState extends State<mScreen> {
                                   return subScreen(ss);
                               }));
     }
+}
+
+class drawerFunction extends StatefulWidget{
+  @override
+  State<StatefulWidget> createState() {
+    return drawerFunctionState();
+  }
+}
+class drawerFunctionState extends State<drawerFunction>{
+  @override
+  Widget build(BuildContext context) {
+    return ListView(
+                            children: <Widget>[
+                                  ListTile(
+                                          title: Text("Maps"),
+                                  ),
+                                  ListTile(
+                                          title: Text("Staff"),
+                                  ),
+                                  ListTile(
+                                          title: Text("Food"),
+                                  ),
+                                  ListTile(
+                                          title: Text("Residence"),
+                                  ),
+                                  ListTile(
+                                          title: Text("Events"),
+                                  ),
+                                  ListTile(
+                                          title: Text("Clubs"),
+                                  ),
+                                  ListTile(
+                                          title: Text("Sports"),
+                                  ),
+                                  ListTile(
+                                          title: Text("Helpline"),
+                                  ),
+                      ],  
+                   );
+  }
 }
