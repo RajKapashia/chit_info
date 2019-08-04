@@ -49,21 +49,29 @@ class mScreenState extends State<mScreen> {
                                            style: BorderStyle.solid,
                                      ),
                                ),
-                                     child: Center(
-                                     child: Container(
+                                     child: 
+                                      ListView(
+                                         reverse: true,
+                                         children: <Widget>[
+
+                                           Container(
                                             decoration: BoxDecoration(
-                                            borderRadius: BorderRadius.circular(30.0),
-                                            color: Colors.blue,
+                                            borderRadius: BorderRadius.only(topLeft: Radius.circular(15.0),topRight:Radius.circular(15.0) ),
+                                            color: Colors.blue.withOpacity(0.9),
                                        ),
-                                       padding: EdgeInsets.all(5.0),
-                                       child: Text("Maps", 
+                                       //padding: EdgeInsets.all(5),
+                                       child:
+                                       Center(
+                                         child:
+                                           Text("Maps", 
                                              style: TextStyle(fontSize: 24.0,
                                              color: Colors.white,
                                              ),
+                                           ),
                                        ),
-                                     ),          
-                                     //child: Image(image: AssetImage("assets/staff.png"),),
-                                ),
+                                           ),
+                                         ],
+                                       ),
                           ),
                         ),
                         FlatButton(
@@ -88,20 +96,28 @@ class mScreenState extends State<mScreen> {
                                            style: BorderStyle.solid,
                                      ),
                                ),
-                                     child: Center(
-                                     child: Container(
+                                     child: ListView(
+                                         reverse: true,
+                                         children: <Widget>[
+
+                                           Container(
                                             decoration: BoxDecoration(
-                                            borderRadius: BorderRadius.circular(30.0),
-                                            color: Colors.blue,
+                                            borderRadius: BorderRadius.only(topLeft: Radius.circular(15.0),topRight:Radius.circular(15.0) ),
+                                            color: Colors.blue.withOpacity(0.9),
                                        ),
-                                       padding: EdgeInsets.all(5.0),
-                                       child: Text("Staff", style: TextStyle(fontSize: 24.0,
-                                              color: Colors.white,
-                                         ),       
+                                       //padding: EdgeInsets.all(5),
+                                       child:
+                                       Center(
+                                         child:
+                                           Text("Staff", 
+                                             style: TextStyle(fontSize: 24.0,
+                                             color: Colors.white,
+                                             ),
+                                           ),
                                        ),
-                                     ),          
-                                     //child: Image(image: AssetImage("assets/staff.png"),),
-                                ),
+                                           ),
+                                         ],
+                                       ),
                           ),
                         ),
                          FlatButton(
@@ -126,19 +142,28 @@ class mScreenState extends State<mScreen> {
                                            style: BorderStyle.solid,
                                      ),
                                ),
-                                     child: Center(
-                                     child: Container(
+                                     child: ListView(
+                                         reverse: true,
+                                         children: <Widget>[
+
+                                           Container(
                                             decoration: BoxDecoration(
-                                            borderRadius: BorderRadius.circular(30.0),
-                                            color: Colors.blue,
+                                            borderRadius: BorderRadius.only(topLeft: Radius.circular(15.0),topRight:Radius.circular(15.0) ),
+                                            color: Colors.blue.withOpacity(0.9),
                                        ),
-                                       padding: EdgeInsets.all(5.0),
-                                       child: Text("Food", style: TextStyle(fontSize: 24.0,
-                                              color: Colors.white,
-                                       ),),
-                                     ),          
-                                     //child: Image(image: AssetImage("assets/staff.png"),),
-                                ),
+                                       //padding: EdgeInsets.all(5),
+                                       child:
+                                       Center(
+                                         child:
+                                           Text("Food", 
+                                             style: TextStyle(fontSize: 24.0,
+                                             color: Colors.white,
+                                             ),
+                                           ),
+                                       ),
+                                           ),
+                                         ],
+                                       ),
                           ),
                         ),
                          FlatButton(
@@ -163,19 +188,28 @@ class mScreenState extends State<mScreen> {
                                            style: BorderStyle.solid,
                                      ),
                                ),
-                                     child: Center(
-                                     child: Container(
+                                     child: ListView(
+                                         reverse: true,
+                                         children: <Widget>[
+
+                                           Container(
                                             decoration: BoxDecoration(
-                                            borderRadius: BorderRadius.circular(30.0),
-                                            color: Colors.blue,
+                                            borderRadius: BorderRadius.only(topLeft: Radius.circular(15.0),topRight:Radius.circular(15.0) ),
+                                            color: Colors.blue.withOpacity(0.9),
                                        ),
-                                       padding: EdgeInsets.all(5.0),
-                                       child: Text("Residence", style: TextStyle(fontSize: 24.0,
+                                       //padding: EdgeInsets.all(5),
+                                       child:
+                                       Center(
+                                         child:
+                                           Text("Residence", 
+                                             style: TextStyle(fontSize: 24.0,
                                              color: Colors.white,
-                                       ),),
-                                     ),          
-                                     //child: Image(image: AssetImage("assets/staff.png"),),
-                                ),
+                                             ),
+                                           ),
+                                       ),
+                                           ),
+                                         ],
+                                       ),
                           ),
                         ),
                          FlatButton(
@@ -200,19 +234,28 @@ class mScreenState extends State<mScreen> {
                                            style: BorderStyle.solid,
                                      ),
                                ),
-                                     child: Center(
-                                     child: Container(
+                                     child: ListView(
+                                         reverse: true,
+                                         children: <Widget>[
+
+                                           Container(
                                             decoration: BoxDecoration(
-                                            borderRadius: BorderRadius.circular(30.0),
-                                            color: Colors.blue,
+                                            borderRadius: BorderRadius.only(topLeft: Radius.circular(15.0),topRight:Radius.circular(15.0) ),
+                                            color: Colors.blue.withOpacity(0.9),
                                        ),
-                                       padding: EdgeInsets.all(5.0),
-                                       child: Text("Events", style: TextStyle(fontSize: 24.0,
-                                              color: Colors.white,
-                                       ),),
-                                     ),          
-                                     //child: Image(image: AssetImage("assets/staff.png"),),
-                                ),
+                                       //padding: EdgeInsets.all(5),
+                                       child:
+                                       Center(
+                                         child:
+                                           Text("Events", 
+                                             style: TextStyle(fontSize: 24.0,
+                                             color: Colors.white,
+                                             ),
+                                           ),
+                                       ),
+                                           ),
+                                         ],
+                                       ),
                           ),
                         ),
                         FlatButton(
@@ -237,19 +280,28 @@ class mScreenState extends State<mScreen> {
                                            style: BorderStyle.solid,
                                      ),
                                ),
-                                     child: Center(
-                                     child: Container(
+                                     child: ListView(
+                                         reverse: true,
+                                         children: <Widget>[
+
+                                           Container(
                                             decoration: BoxDecoration(
-                                            borderRadius: BorderRadius.circular(30.0),
-                                            color: Colors.blue,
+                                            borderRadius: BorderRadius.only(topLeft: Radius.circular(15.0),topRight:Radius.circular(15.0) ),
+                                            color: Colors.blue.withOpacity(0.9),
                                        ),
-                                       padding: EdgeInsets.all(5.0),
-                                       child: Text("Clubs", style: TextStyle(fontSize: 24.0,
-                                              color: Colors.white,
-                                       ),),
-                                     ),          
-                                     //child: Image(image: AssetImage("assets/staff.png"),),
-                                ),
+                                       //padding: EdgeInsets.all(5),
+                                       child:
+                                       Center(
+                                         child:
+                                           Text("Clubs", 
+                                             style: TextStyle(fontSize: 24.0,
+                                             color: Colors.white,
+                                             ),
+                                           ),
+                                       ),
+                                           ),
+                                         ],
+                                       ),
                           ),
                         ),
                         FlatButton(
@@ -274,19 +326,28 @@ class mScreenState extends State<mScreen> {
                                            style: BorderStyle.solid,
                                      ),
                                ),
-                                     child: Center(
-                                     child: Container(
+                                     child: ListView(
+                                         reverse: true,
+                                         children: <Widget>[
+
+                                           Container(
                                             decoration: BoxDecoration(
-                                            borderRadius: BorderRadius.circular(30.0),
-                                            color: Colors.blue,
+                                            borderRadius: BorderRadius.only(topLeft: Radius.circular(15.0),topRight:Radius.circular(15.0) ),
+                                            color: Colors.blue.withOpacity(0.9),
                                        ),
-                                       padding: EdgeInsets.all(5.0),
-                                       child: Text("Sports", style: TextStyle(fontSize: 24.0,
-                                              color: Colors.white,
-                                       ),),
-                                     ),          
-                                     //child: Image(image: AssetImage("assets/staff.png"),),
-                                ),
+                                       //padding: EdgeInsets.all(5),
+                                       child:
+                                       Center(
+                                         child:
+                                           Text("Sports", 
+                                             style: TextStyle(fontSize: 24.0,
+                                             color: Colors.white,
+                                             ),
+                                           ),
+                                       ),
+                                           ),
+                                         ],
+                                       ),
                           ),
                         ),
                           FlatButton(
@@ -312,19 +373,28 @@ class mScreenState extends State<mScreen> {
                                      ),
                                ),
                                      child: 
-                                     Center(
-                                     child: Container(
+                                     ListView(
+                                         reverse: true,
+                                         children: <Widget>[
+
+                                           Container(
                                             decoration: BoxDecoration(
-                                            borderRadius: BorderRadius.circular(30.0),
-                                            color: Colors.blue,
+                                            borderRadius: BorderRadius.only(topLeft: Radius.circular(15.0),topRight:Radius.circular(15.0) ),
+                                            color: Colors.blue.withOpacity(0.9),
                                        ),
-                                       padding: EdgeInsets.all(5.0),
-                                       child: Text("Helpline", style: TextStyle(fontSize: 24.0,
-                                              color: Colors.white,
-                                       ),),
-                                     ),          
-                                     //child: Image(image: AssetImage("assets/staff.png"),),
-                                ),
+                                       //padding: EdgeInsets.all(5),
+                                       child:
+                                       Center(
+                                         child:
+                                           Text("Helpline", 
+                                             style: TextStyle(fontSize: 24.0,
+                                             color: Colors.white,
+                                             ),
+                                           ),
+                                       ),
+                                           ),
+                                         ],
+                                       ),
                           ),
                         ),
                     ],
