@@ -23,13 +23,14 @@ class mScreenState extends State<mScreen> {
                    child: drawerFunction(),
           ),
            body: Material(
+             color: Colors.white,
             child: 
               GridView.count(
                crossAxisCount: 2,
                   children: <Widget>[
                         FlatButton(
                           padding: EdgeInsets.all(5.0),
-                          // elevation: 2.0,
+                           //elevation: 30.0,
                           onPressed: (){
                                         navigateToDetail("Maps");
                           },
@@ -41,22 +42,22 @@ class mScreenState extends State<mScreen> {
                                              image: AssetImage("assets/maps.png"),
                                              //fit: BoxFit.cover,
                                            ),
-                                           borderRadius: BorderRadius.circular(5.0),
+                                           borderRadius: BorderRadius.circular(15.0),
                                            color: Colors.white,
                                            border: Border.all(
-                                               color: Colors.white,
-                                               width: 0,
+                                               color: Colors.blue,
+                                               width: 1,
                                            style: BorderStyle.solid,
                                      ),
                                ),
                                      child: 
-                                      ListView(
-                                         reverse: true,
+                                      Column(
+                                         verticalDirection: VerticalDirection.up,
                                          children: <Widget>[
 
                                            Container(
                                             decoration: BoxDecoration(
-                                            borderRadius: BorderRadius.only(topLeft: Radius.circular(15.0),topRight:Radius.circular(15.0) ),
+                                            borderRadius: BorderRadius.only(bottomLeft: Radius.circular(12.0),bottomRight:Radius.circular(12.0) ),
                                             color: Colors.blue.withOpacity(0.9),
                                        ),
                                        //padding: EdgeInsets.all(5),
@@ -88,21 +89,21 @@ class mScreenState extends State<mScreen> {
                                              image: AssetImage("assets/staff.png"),
                                              //fit: BoxFit.cover,
                                            ),
-                                           borderRadius: BorderRadius.circular(5.0),
+                                           borderRadius: BorderRadius.circular(15.0),
                                            color: Colors.white,
                                            border: Border.all(
-                                               color: Colors.white,
-                                               width: 0,
+                                               color: Colors.blue,
+                                               width: 1,
                                            style: BorderStyle.solid,
                                      ),
                                ),
-                                     child: ListView(
-                                         reverse: true,
+                                     child: Column(
+                                         verticalDirection: VerticalDirection.up,
                                          children: <Widget>[
 
                                            Container(
                                             decoration: BoxDecoration(
-                                            borderRadius: BorderRadius.only(topLeft: Radius.circular(15.0),topRight:Radius.circular(15.0) ),
+                                            borderRadius: BorderRadius.only(bottomLeft: Radius.circular(12.0),bottomRight:Radius.circular(12.0) ),
                                             color: Colors.blue.withOpacity(0.9),
                                        ),
                                        //padding: EdgeInsets.all(5),
@@ -134,21 +135,21 @@ class mScreenState extends State<mScreen> {
                                              image: AssetImage("assets/food.png"),
                                              //fit: BoxFit.cover,
                                            ),
-                                           borderRadius: BorderRadius.circular(5.0),
+                                           borderRadius: BorderRadius.circular(15.0),
                                            color: Colors.white,
                                            border: Border.all(
-                                               color: Colors.white,
-                                               width: 0,
+                                               color: Colors.blue,
+                                               width: 1,
                                            style: BorderStyle.solid,
                                      ),
                                ),
-                                     child: ListView(
-                                         reverse: true,
+                                     child: Column(
+                                         verticalDirection: VerticalDirection.up,
                                          children: <Widget>[
 
                                            Container(
                                             decoration: BoxDecoration(
-                                            borderRadius: BorderRadius.only(topLeft: Radius.circular(15.0),topRight:Radius.circular(15.0) ),
+                                            borderRadius: BorderRadius.only(bottomLeft: Radius.circular(12.0),bottomRight:Radius.circular(12.0) ),
                                             color: Colors.blue.withOpacity(0.9),
                                        ),
                                        //padding: EdgeInsets.all(5),
@@ -180,21 +181,21 @@ class mScreenState extends State<mScreen> {
                                              image: AssetImage("assets/residence.png"),
                                              //fit: BoxFit.cover,
                                            ),
-                                           borderRadius: BorderRadius.circular(5.0),
+                                           borderRadius: BorderRadius.circular(15.0),
                                            color: Colors.white,
                                            border: Border.all(
-                                               color: Colors.white,
-                                               width: 0,
+                                               color: Colors.blue,
+                                               width: 1,
                                            style: BorderStyle.solid,
                                      ),
                                ),
-                                     child: ListView(
-                                         reverse: true,
+                                     child: Column(
+                                         verticalDirection: VerticalDirection.up,
                                          children: <Widget>[
 
                                            Container(
                                             decoration: BoxDecoration(
-                                            borderRadius: BorderRadius.only(topLeft: Radius.circular(15.0),topRight:Radius.circular(15.0) ),
+                                            borderRadius: BorderRadius.only(bottomLeft: Radius.circular(12.0),bottomRight:Radius.circular(12.0) ),
                                             color: Colors.blue.withOpacity(0.9),
                                        ),
                                        //padding: EdgeInsets.all(5),
@@ -226,21 +227,21 @@ class mScreenState extends State<mScreen> {
                                              image: AssetImage("assets/events.png"),
                                              //fit: BoxFit.cover,
                                            ),
-                                           borderRadius: BorderRadius.circular(5.0),
+                                           borderRadius: BorderRadius.circular(15.0),
                                            color: Colors.white,
                                            border: Border.all(
-                                               color: Colors.white,
-                                               width: 0,
+                                               color: Colors.blue,
+                                               width: 1,
                                            style: BorderStyle.solid,
                                      ),
                                ),
-                                     child: ListView(
-                                         reverse: true,
+                                     child: Column(
+                                         verticalDirection: VerticalDirection.up,
                                          children: <Widget>[
 
                                            Container(
                                             decoration: BoxDecoration(
-                                            borderRadius: BorderRadius.only(topLeft: Radius.circular(15.0),topRight:Radius.circular(15.0) ),
+                                            borderRadius: BorderRadius.only(bottomLeft: Radius.circular(12.0),bottomRight:Radius.circular(12.0) ),
                                             color: Colors.blue.withOpacity(0.9),
                                        ),
                                        //padding: EdgeInsets.all(5),
@@ -272,21 +273,21 @@ class mScreenState extends State<mScreen> {
                                              image: AssetImage("assets/clubs.png"),
                                              //fit: BoxFit.cover,
                                            ),
-                                           borderRadius: BorderRadius.circular(5.0),
+                                           borderRadius: BorderRadius.circular(15.0),
                                            color: Colors.white,
                                            border: Border.all(
-                                               color: Colors.white,
-                                               width: 0,
+                                               color: Colors.blue,
+                                               width: 1,
                                            style: BorderStyle.solid,
                                      ),
                                ),
-                                     child: ListView(
-                                         reverse: true,
+                                     child: Column(
+                                         verticalDirection: VerticalDirection.up,
                                          children: <Widget>[
 
                                            Container(
                                             decoration: BoxDecoration(
-                                            borderRadius: BorderRadius.only(topLeft: Radius.circular(15.0),topRight:Radius.circular(15.0) ),
+                                            borderRadius: BorderRadius.only(bottomLeft: Radius.circular(12.0),bottomRight:Radius.circular(12.0) ),
                                             color: Colors.blue.withOpacity(0.9),
                                        ),
                                        //padding: EdgeInsets.all(5),
@@ -318,21 +319,21 @@ class mScreenState extends State<mScreen> {
                                              image: AssetImage("assets/sports.png"),
                                              //fit: BoxFit.cover,
                                            ),
-                                           borderRadius: BorderRadius.circular(5.0),
+                                           borderRadius: BorderRadius.circular(15.0),
                                            color: Colors.white,
                                            border: Border.all(
-                                               color: Colors.white,
-                                               width: 0,
+                                               color: Colors.blue,
+                                               width: 1,
                                            style: BorderStyle.solid,
                                      ),
                                ),
-                                     child: ListView(
-                                         reverse: true,
+                                     child: Column(
+                                         verticalDirection: VerticalDirection.up,
                                          children: <Widget>[
 
                                            Container(
                                             decoration: BoxDecoration(
-                                            borderRadius: BorderRadius.only(topLeft: Radius.circular(15.0),topRight:Radius.circular(15.0) ),
+                                            borderRadius: BorderRadius.only(bottomLeft: Radius.circular(12.0),bottomRight:Radius.circular(12.0) ),
                                             color: Colors.blue.withOpacity(0.9),
                                        ),
                                        //padding: EdgeInsets.all(5),
@@ -364,22 +365,22 @@ class mScreenState extends State<mScreen> {
                                              image: AssetImage("assets/helpline.png"),
                                              //fit: BoxFit.cover,
                                            ),
-                                           borderRadius: BorderRadius.circular(5.0),
+                                           borderRadius: BorderRadius.circular(15.0),
                                            color: Colors.white,
                                            border: Border.all(
-                                               color: Colors.white,
-                                               width: 0,
+                                               color: Colors.blue,
+                                               width: 1,
                                            style: BorderStyle.solid,
                                      ),
                                ),
                                      child: 
-                                     ListView(
-                                         reverse: true,
+                                     Column(
+                                         verticalDirection: VerticalDirection.up,
                                          children: <Widget>[
 
                                            Container(
                                             decoration: BoxDecoration(
-                                            borderRadius: BorderRadius.only(topLeft: Radius.circular(15.0),topRight:Radius.circular(15.0) ),
+                                            borderRadius: BorderRadius.only(bottomLeft: Radius.circular(12.0),bottomRight:Radius.circular(12.0) ),
                                             color: Colors.blue.withOpacity(0.9),
                                        ),
                                        //padding: EdgeInsets.all(5),
