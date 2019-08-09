@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_webview_plugin/flutter_webview_plugin.dart';
 
 class subScreen extends StatefulWidget{
   String appBarTitle;
@@ -13,14 +14,15 @@ class subScreenState extends State<subScreen>{
   subScreenState(this.appBarTitle);
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return WebviewScaffold(
         appBar: AppBar(
           title: 
                      Text(appBarTitle),
           ),
-          body: Material(
+          url: "https://drive.google.com/open?id=1h0KVnBBRhwhE_QnZJmab6PqIE3tkVhqG&usp=sharing",
+          //body: Material(
            // child: ,
-          ),
+          //),
     );
   }
 }
